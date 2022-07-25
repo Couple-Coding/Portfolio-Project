@@ -3,7 +3,7 @@
 
 # Day 1
 
-* Mila - HomePage + circles
+* `done` Mila - HomePage + circles
 * Tsvetoslav - To make circles with JS
 
 # Day 2
