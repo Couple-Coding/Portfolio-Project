@@ -1,5 +1,8 @@
+<<<<<<< Updated upstream
 
-document.getElementById('aa').style.color  = 'red';
+=======
+document.getElementById("demo").style.color = "red";
+>>>>>>> Stashed changes
 
 
 console.log("SDFS");
