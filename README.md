@@ -3,4 +3,10 @@
 
 # Day 1
 
-#### Мила - начална страница с кръгчета 
+* Mila - HomePage + circles
+* Tsvetoslav - To make circles with JS
+
+# Day 2
+
+
+# Day 3
