@@ -29,7 +29,7 @@ nav{
 	cursor: pointer;
 }
 span{
-	color: #f9004d;
+	color: rgb(103, 176, 201);
 }
 nav ul li{
 	list-style-type: none;
@@ -43,11 +43,11 @@ nav ul li a{
 	text-transform: capitalize;
 }
 nav ul li a:hover{
-	color: #f9004d;
+	color: rgb(103, 176, 201);
 	transition: .4s;
 }
 .btn{
-	background-color:#f9004d;
+	background-color:rgb(103, 176, 201);
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -89,7 +89,7 @@ h4{
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-	border: 2px solid #f9004d;
+	border: 2px solid rgb(103, 176, 201);
 	outline: none;
 	border-radius: 30px;
 }
@@ -100,7 +100,7 @@ h4{
 	border: none;
 	padding: 10px 30px;
 	border-radius: 30px;
-	background-color:#f9004d;
+	background-color:rgb(103, 176, 201);
 	color: white;
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
@@ -148,7 +148,7 @@ h4{
 	margin-bottom: 45px;
 }
 button{
-	background-color:#f9004d;
+	background-color:rgb(103, 176, 201);
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -159,7 +159,7 @@ button{
 }
 button:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid rgb(103, 176, 201);
 	cursor: pointer;
 }
 
@@ -197,7 +197,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #f9004d;
+	color: rgb(103, 176, 201);
 
 }
 h5{
@@ -212,7 +212,7 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
+	background-color:rgb(103, 176, 201);
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -223,7 +223,7 @@ h5{
 }
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid rgb(103, 176, 201);
 	cursor: pointer;
 }
 .contact-me{
@@ -242,7 +242,7 @@ h5{
 	margin-bottom: 25px;
 }
 .contact-me .button-two{
-	background-color:#f9004d;
+	background-color:rgb(103, 176, 201);
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -253,7 +253,7 @@ h5{
 }
 .contact-me .button-two:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid rgb(103, 176, 201);
 	cursor: pointer;
 }
 footer{
@@ -288,7 +288,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #f9004d;
+	background:  rgb(103, 176, 201);
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -301,7 +301,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:#f9004d;
+	color:rgb(103, 176, 201);
 	bottom: 35px;
 	font-size: 14px; 
 }
