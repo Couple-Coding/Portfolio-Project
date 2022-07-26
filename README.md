@@ -8,5 +8,8 @@
 
 # Day 2
 
+* Mila - to complete the portfolio 
+* Tsvetoslav - JS
+
 
 # Day 3
