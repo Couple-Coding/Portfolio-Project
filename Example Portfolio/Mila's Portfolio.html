@@ -14,6 +14,7 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pictures/logo.PNG" type="image/icon type">
 
 </head>
 
@@ -29,7 +30,7 @@
             <ul class="links">
                 <li><a href="../Main Page.html">Home</a></li>
                 <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#ourService">Services</a></li>
+                <li><a href="#ourService">More</a></li>
                 <li><a href="#footer">Contact Me</a></li>
             </ul>
             <label for="nav-toggle" class="icon-burger">
@@ -44,9 +45,9 @@
             <h4>Hello, I am</h4>
             <h1> <span class="multiText"></span></h1>
             <div class="newslatter">
-                <form>
+                <form  id="orderForm" onSubmit="return checkform()" action="https://getform.io/f/186a1d95-7bb4-4f8a-87bd-60dfc7d32d22" method="POST">
                     <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                    <input type="submit" name="submit" value="Lets Start">
+                    <input class="button" type="submit" name="submit" value="Lets Start">
                 </form>
             </div>
         </div>
@@ -63,7 +64,7 @@
                 <h2>About <span>Me</span> </h2>
                 <h5>Developer and QA</h5>
                 <p class="pText"></p>
-                <button type="button">Contact me</button>
+                <a href="#footer"><button type="button">Contact me</button></a> 
             </div>
         </div>
     </section>
@@ -71,18 +72,21 @@
     <!-----service section start----------->
     <div class="service" id="ourService">
         <div class="title">
-            <h2>Our <span>Services</span> </h2>
         </div>
 
         <div class="box">
             <div class="card">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-laptop-code"></i>
                 <h5>My skills</h5>
                 <div class="pra">
-                    <p>HTML, CSS, Java, Linux and QA.</p>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+                    <ul class="skill">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>Linux</li>
+                        <li>QA</li>
+                    </ul>
+            
                 </div>
             </div>
 
@@ -92,23 +96,17 @@
                 <div class="pra">
                     <p>
                         I am motivated, ambitious and I love working in a team because I get along very well with
-                        people. I'm a quick learner and get into a rhythm quickly.
-                    </p>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
+                        people. I'm a quick learner and get into a rhythm quickly. I worked for 5 months as a Web developer and QA.
                     </p>
                 </div>
             </div>
 
             <div class="card">
-                <i class="far fa-bell"></i>
+                <i class="fa fa-book"></i>
                 <h5>Education</h5>
                 <div class="pra">
                     <p>I have completed the first high school stage of education. I study at the National High School of
                         Computer Technologies and Systems - Pravets.</p>
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
                 </div>
             </div>
         </div>
