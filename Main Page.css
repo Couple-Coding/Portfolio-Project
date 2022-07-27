@@ -53,12 +53,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-
-  
-
- 
-  
+  height: 300px; 
 }
 
 
@@ -109,26 +104,18 @@ html {
 }
 span{
   color: rgb(228, 123, 139);
-
 }
-
-
-
-
-
 .memberDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   
-  
 }
 
-.memberDiv .btn1
- {
-  height: 15vw;
-  width: 15vw;
+.memberDiv .btn1 {
+  height: 13vw;
+  width: 13vw;
   border-radius: 20rem;
   border: none;
   outline: none;
@@ -140,13 +127,12 @@ span{
   background-size: cover;
   justify-content: center;
   display: flex;
-  margin:130px;
+  margin:20px;
   
 }
-.memberDiv .btn2
- {
-  height: 15vw;
-  width: 15vw;
+.memberDiv .btn2{
+  height: 13vw;
+  width: 13vw;
   border-radius: 20rem;
   border: none;
   outline: none;
@@ -158,12 +144,9 @@ span{
   background-size: cover;
   justify-content: center;
   display: flex;
-  margin:130px;
+  margin:20px;
   
 }
-
-
-
 
 .memberDiv .btn1 {
   background-image: url(images/Tsvetoslav.jpg);
@@ -176,8 +159,6 @@ span{
   background-image: url(images/Mila.jpg);
  
 }
-
-
 
 .memberDiv .btn1:hover {
   
