@@ -64,7 +64,7 @@ html {
   transform: translate(-50%,-50%);
   padding: 52px 8px;
   color: #ffffff;
-  background: linear-gradient(to right, #ffffff 0, #E47B8B 70%, White 100%);
+  background: linear-gradient(to right, #ffffff 0, rgb(103, 176, 201) 20%, White 100%);
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -103,7 +103,7 @@ html {
   
 }
 span{
-  color: rgb(228, 123, 139);
+  color: rgb(103, 176, 201);
 }
 .memberDiv {
   display: flex;
@@ -167,7 +167,7 @@ span{
 
 .memberDiv .btn2:hover {
   
-  box-shadow: inset 0 0 0 5px rgb(228, 123, 139);
+  box-shadow: inset 0 0 0 5px rgb(103, 176, 201);
   
   
 }
