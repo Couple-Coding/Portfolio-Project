@@ -1,21 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
-
+body{
+  background-color: red;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  
+  
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  background-repeat: no-repeat;
+ 
 
 }
-body{
-  background-color: #141414;
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-}.wrapper::before{
+.wrapper::before{
     position: absolute;
     content: '';
     height: 350px;
@@ -64,11 +66,11 @@ html {
   transform: translate(-50%,-50%);
   padding: 52px 8px;
   color: #ffffff;
-  background: linear-gradient(to right, #ffffff 0, rgb(103, 176, 201) 20%, White 100%);
+  background: linear-gradient(to right, white 0, #ffffff 20%, rgb(109, 9, 59) 1%);
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
+  animation: shine 5s infinite linear;
   animation-fill-mode: forwards;
   -webkit-text-size-adjust: none;
   font-weight: 600;
@@ -88,9 +90,12 @@ html {
 }
 
 .chooseAPortfolio {
-  width: 100vw;
+  width: 100%;
+  height: 100%;
   min-height: 100vh;
-  background-color: #141414;
+  background-image: url(/images/wp4974475.webp);
+  background-size: 1800px 900px;
+  background-repeat: no-repeat;
 
 }
 
@@ -103,7 +108,7 @@ html {
   
 }
 span{
-  color: rgb(103, 176, 201);
+  color: rgb(109, 9, 59);
 }
 .memberDiv {
   display: flex;
@@ -162,12 +167,12 @@ span{
 
 .memberDiv .btn1:hover {
   
-  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 0 0 5px rgb(109, 9, 59);
 }
 
 .memberDiv .btn2:hover {
   
-  box-shadow: inset 0 0 0 5px rgb(103, 176, 201);
+  box-shadow: inset 0 0 0 5px rgb(109, 9, 59);
   
   
 }
@@ -185,6 +190,7 @@ span{
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
+  
 }
 
 .memberDiv .btn2 span,
