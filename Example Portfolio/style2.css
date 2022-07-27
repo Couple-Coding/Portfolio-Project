@@ -118,6 +118,9 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+	border-radius: 50%;
+	border: 5px solid rgb(103, 176, 201);
+
 }
 .about-text{
 	width: 550px;
@@ -144,7 +147,7 @@ h4{
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: rgb(103, 176, 201);
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
