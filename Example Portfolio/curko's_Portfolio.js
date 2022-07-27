@@ -7,8 +7,8 @@ var typingEffect = new Typed(".multiText", {
 })
 
 var typingEffect = new Typed(".pText", {
-    strings: ["Hello! My name is Tsvetoslav Nikolov, my specialization is in a front-end web development.I am 19 years old from Vratsa and I study at Plovdiv University majoring in Informatics."],
-        typeSpeed: 50,
+    strings: ["Hello! My name is Tsvetoslav Nikolov, my specialization is in a front-end web development. I am 19 years old from Vratsa and I study at Plovdiv University majoring in Informatics."],
+        typeSpeed: 70,
         backSpeed: 30,
         loop: true
         
