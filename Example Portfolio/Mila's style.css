@@ -366,6 +366,32 @@ nav .icon-burger .line{
 	border-radius: 3px;
 }
 
+.newslatter .button{
+	background-color:#A10035;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+
+.newslatter .button:hover{
+	background-color: transparent;
+	color: #A10035;
+	border: 2px solid #A10035;
+	cursor: pointer;
+}
+
+.skill{
+	list-style: none;
+	color: #A10035;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
 
 @media only screen and  (max-width: 768px) {
 	.hero{
