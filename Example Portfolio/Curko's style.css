@@ -346,8 +346,11 @@ footer p:nth-child(2){
 	width: 650px;
     height: 600px;
     float: right;
+
+	
 	
 }
+
 
 #nav-toggle{
 	position: absolute;
@@ -605,6 +608,7 @@ footer p:nth-child(2){
 	align-items:center;
 	
 }
+
 .card i{
 	font-size: 50px;
 	display: block;
