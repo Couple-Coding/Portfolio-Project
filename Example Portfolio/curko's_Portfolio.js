@@ -20,3 +20,20 @@ var typingEffect = new Typed(".fText", {
         backSpeed: 60,
         loop: true
 })
+
+function checkform()
+{
+  if (document.getElementById("mail").value == "")
+{
+    // something is wrong
+    alert('There is a problem with the first field');
+    return false;
+}
+
+return true;
+}
+
+
+
+
+
