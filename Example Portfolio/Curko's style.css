@@ -350,6 +350,13 @@ footer p:nth-child(2){
 	
 	
 }
+.skill{
+	list-style: none;
+	color:rgb(116, 183, 206);
+	font-size: 16px;
+	line-height: 23px;
+	
+}
 
 
 #nav-toggle{
