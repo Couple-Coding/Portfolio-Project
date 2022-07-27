@@ -31,7 +31,7 @@ nav{
 	cursor: pointer;
 }
 span{
-	color: rgb(228, 123, 139);
+	color: #A10035;
 }
 nav ul li{
 	list-style-type: none;
@@ -45,11 +45,11 @@ nav ul li a{
 	text-transform: capitalize;
 }
 nav ul li a:hover{
-	color: rgb(228, 123, 139);
+	color: #A10035;
 	transition: .4s;
 }
 .btn{
-	background-color:rgb(228, 123, 139);
+	background-color:#A10035;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -91,7 +91,7 @@ h4{
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-	border: 2px solid rgb(228, 123, 139);
+	border: 2px solid #A10035;
 	outline: none;
 	border-radius: 30px;
 }
@@ -102,7 +102,7 @@ h4{
 	border: none;
 	padding: 10px 30px;
 	border-radius: 30px;
-	background-color:rgb(228, 123, 139);
+	background-color:#A10035;
 	color: white;
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
@@ -118,7 +118,7 @@ h4{
 	height: auto;
 	width: 430px;
 	border-radius: 50%;
-	border: 5px solid rgb(228, 123, 139);
+	border: 5px solid #A10035;
 
 }
 .about-text{
@@ -146,14 +146,14 @@ h4{
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: #A10035;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
 }
 button{
-	background-color:rgb(228, 123, 139);
+	background-color:#A10035;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -164,7 +164,7 @@ button{
 }
 button:hover{
 	background-color: transparent;
-	border: 2px solid rgb(228, 123, 139);
+	border: 2px solid #A10035;
 	cursor: pointer;
 }
 
@@ -202,7 +202,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: rgb(228, 123, 139);
+	color: #A10035;
 
 }
 h5{
@@ -211,13 +211,13 @@ h5{
 	margin-bottom: 15px;
 }
 .pra p{
-	color: #fcfc;
+	color: #A10035;
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:rgb(228, 123, 139);
+	background-color:#A10035;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -228,7 +228,7 @@ h5{
 }
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid rgb(228, 123, 139);
+	border: 2px solid #A10035;
 	cursor: pointer;
 }
 .contact-me{
@@ -247,7 +247,7 @@ h5{
 	margin-bottom: 25px;
 }
 .contact-me .button-two{
-	background-color:rgb(228, 123, 139);
+	background-color:#A10035;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -258,7 +258,7 @@ h5{
 }
 .contact-me .button-two:hover{
 	background-color: transparent;
-	border: 2px solid rgb(228, 123, 139);
+	border: 2px solid #A10035;
 	cursor: pointer;
 }
 footer{
@@ -293,7 +293,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  rgb(228, 123, 139);
+	background:  #A10035;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -306,7 +306,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:rgb(228, 123, 139);
+	color:#A10035;
 	bottom: 35px;
 	font-size: 14px; 
 }
@@ -318,7 +318,7 @@ footer p:nth-child(2){
     border-radius: 50%;
     left: -12%;
     top: 40%;
-    background: linear-gradient(45deg, rgb(226, 154, 165), white);
+    background: linear-gradient(45deg, rgb(192, 25, 50), white);
     animation: object1 6s linear infinite;
 }
 .wrapper::after{
@@ -329,7 +329,7 @@ footer p:nth-child(2){
     border-radius: 50%;
     left: 35%;
     top: 12%;
-    background: linear-gradient(45deg, rgb(226, 154, 165), white);
+    background: linear-gradient(45deg, rgb(192, 25, 50), white);
     animation: object1 6s linear infinite;
 }
 
@@ -339,6 +339,13 @@ footer p:nth-child(2){
         top: 41%;
     }
 }
+
+#splash{
+	width: 700px;
+    height: 550px;
+    float: right;
+}
+
 
 #nav-toggle{
 	position: absolute;
@@ -375,7 +382,7 @@ nav .icon-burger .line{
     border-radius: 50%;
     left: -12%;
     top: 75%;
-    background: linear-gradient(45deg, rgb(226, 154, 165), white);
+    background: linear-gradient(45deg, rgb(192, 25, 50), white);
     animation: object1 6s linear infinite;
    }
    .wrapper::after{
@@ -386,7 +393,7 @@ nav .icon-burger .line{
     border-radius: 50%;
     left: 35%;
     top: 42%;
-    background: linear-gradient(45deg, rgb(226, 154, 165), white);
+    background: linear-gradient(45deg, rgb(192, 25, 50), white);
     animation: object1 6s linear infinite;
 }
  nav .logo{
@@ -464,7 +471,7 @@ nav :checked ~ .icon-burger .line:nth-child(2){
 	margin-bottom: 45px;
 }
 button{
-	background-color:rgb(228, 123, 139);
+	background-color:#A10035;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -475,7 +482,7 @@ button{
 }
 button:hover{
 	background-color: transparent;
-	border: 2px solid rgb(228, 123, 139);
+	border: 2px solid #A10035;
 	cursor: pointer;
 }
 .logo{
@@ -485,7 +492,7 @@ button:hover{
 	cursor: pointer;
 }
 span{
-	color: rgb(228, 123, 139);
+	color: #A10035;
 }
 h4{
 	font-size: 45px;
@@ -528,7 +535,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  rgb(228, 123, 139);
+	background:  #A10035;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -541,7 +548,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:rgb(228, 123, 139);
+	color:#A10035;
 	bottom: 35px;
 	font-size: 20px; 
 }
@@ -582,7 +589,7 @@ footer p:nth-child(2){
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: rgb(228, 123, 139);
+	color: #A10035;
 
 }
 h5{
@@ -591,7 +598,7 @@ h5{
 	margin-bottom: 15px;
 }
 .pra p{
-	color: #fcfc;
+	color: #A10035;
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;

@@ -8,7 +8,7 @@
 
 # Day 2
 
-* Mila - to complete the portfolio 
+* `done` Mila - to complete the portfolio 
 * `done` Tsvetoslav - to complete the effects of home page
 
 
