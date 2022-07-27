@@ -1,34 +1,212 @@
-*{
-    background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+body{
+  background: black;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1{
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    font-size: 45px;
-    letter-spacing: 0.1em;
+html {
+  font-size: 62.5%;
 }
-
-.Tsvetoslav img{
-    position:absolute;
-    top:51%;
-    left:25%;
-    width:250px;
-    height:250px;
-    margin:-51px;
-    border-radius:50%;
-    border: 5px solid rgb(96, 183, 212)
+.memberDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #141414;
 }
 
 
-.Mila img{
-   position:absolute;
-   top:51%;
-   left:65%;
-   width:250px;
-   height:250px;
-   margin:-51px;
-   border-radius:50%;
-   border: 5px solid rgb(223, 131, 144)
+.shine{
+  position:absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 52px 8px;
+  color: #ffffff;
+  background: linear-gradient(to right, #ffffff 0, #E47B8B 70%, White 100%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  justify-content: center;
+  margin-right: 200px;
+  font-size: 70px;
+  
 }
+@keyframes shine{
+  0%{}
+  0%{background-position: 0px;}
+  60%{background-position: 500px;}
+  100%{background-position: 0px;}
+}
+
+.chooseAPortfolio {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+.logo{
+  color: white;
+  font-size: 45px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-left: 20px;
+  
+}
+span{
+  color: rgb(228, 123, 139);
+
+}
+
+
+
+
+
+.memberDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+.memberDiv .btn1
+ {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 20rem;
+  border: none;
+  outline: none;
+  margin-top: 4rem;
+  margin-right: 3.5rem;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  margin:130px;
+  
+}
+.memberDiv .btn2
+ {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 20rem;
+  border: none;
+  outline: none;
+  margin-top: 4rem;
+  margin-right: 3.5rem;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  margin:130px;
+  
+}
+
+
+
+
+.memberDiv .btn1 {
+  background-image: url(images/Tsvetoslav.jpg);
+  src: url("facebook.com");
+  
+
+}
+
+.memberDiv .btn2 {
+  background-image: url(images/Mila.jpg);
+ 
+}
+
+
+
+.memberDiv .btn1:hover {
+  
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.9);
+}
+
+.memberDiv .btn2:hover {
+  
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.9);
+}
+
+
+
+.memberDiv .btn1 span,
+.addIcon span {
+  width: inherit;
+  /* background-color: red; */
+  position: absolute;
+  bottom: -3.5rem;
+  left: 0;
+  text-transform: capitalize;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+
+.memberDiv .btn2 span,
+.addIcon span {
+  width: inherit;
+  /* background-color: red; */
+  position: absolute;
+  bottom: -3.5rem;
+  left: 0;
+  text-transform: capitalize;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+
+.fa-plus-circle {
+  font-size: 7vw;
+  color: grey;
+  opacity: 0.8;
+  display: none;
+}
+
+.addIcon {
+ background-color: transparent;
+}
+
+
+.addicon:hover > .fa-plus-circle {
+  opacity: 1;
+}
+
+.memberDiv{
+  align-items:flex-start;
+
+}
+.memberDiv{
+  justify-content: center;
+  padding: 300px;
+  
+}
+
+
+
+
+
