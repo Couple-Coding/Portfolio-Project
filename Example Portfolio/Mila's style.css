@@ -535,7 +535,7 @@ footer p:nth-child(2){
 	transform: scale(1.2);
 }
 
-/* .input_field .btn1{
+.input_field .btn1{
 	background-color: #A10035;
     color: white;
     text-decoration: none;
@@ -550,7 +550,7 @@ footer p:nth-child(2){
 }
 .input_field .btn1:hover{
 	transform: scale(1.2);
-} */
+}
 
 
 
