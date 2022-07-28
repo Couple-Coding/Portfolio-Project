@@ -231,11 +231,21 @@ span{
   padding: 300px;
   
 }
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%;}
+@media screen and (max-width: 768px) {
+  .chooseAPortfolio{
+    width: 130%;
+    height: 10%;
+    min-height: 100vh;
+    background-image: url(/images/wp4974475.webp);
+    background-size: 7s00px 900px;
+    background-repeat: no-repeat;
+  }
 
-
-
-
+  h1.shine{
+    font-size: 45px;
+  }
+  .memberDiv{ 
+    padding: 200px;
+ 
+  }
   }
