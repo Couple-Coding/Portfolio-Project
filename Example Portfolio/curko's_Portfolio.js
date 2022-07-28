@@ -37,6 +37,16 @@ return true;
 function toggle() {
     var blur = document.getElementById('blur');
     blur.classList.toggle('active');
+    var blur2 = document.getElementById('blur2');
+    blur2.classList.toggle('active');
+    var blur3 = document.getElementById('blur3');
+    blur3.classList.toggle('active');
+    var blur4 = document.getElementById('blur4');
+    blur4.classList.toggle('active');
+    var blur5 = document.getElementById('blur5');
+    blur5.classList.toggle('active');
+    var blur6 = document.getElementById('blur6');
+    blur6.classList.toggle('active');
     var popup = document.getElementById('popup');
     popup.classList.toggle('active');
 }

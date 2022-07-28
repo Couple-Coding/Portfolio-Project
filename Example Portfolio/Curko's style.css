@@ -522,6 +522,38 @@ nav .icon-burger .line{
 	transform: scale(1.2);
 }
 
+.main#blur.active{
+	filter: blur(20px);
+	pointer-events: none;
+	user-select: none;
+}
+.footer2#blur2.active{
+	filter: blur(20px);
+	pointer-events: none;
+	user-select: none;
+}
+.more#blur3.active{
+	filter: blur(20px);
+	pointer-events: none;
+	user-select: none;
+}
+.content#blur4.active{
+	filter: blur(20px);
+	pointer-events: none;
+	user-select: none;
+}
+.hero#blur5.active{
+	filter: blur(20px);
+	pointer-events: none;
+	user-select: none;
+}
+.wrapper#blur6.active{
+	filter: blur(20px);
+	pointer-events: none;
+	user-select: none;
+}
+
+
 
 
 @media only screen and  (max-width: 768px) {
