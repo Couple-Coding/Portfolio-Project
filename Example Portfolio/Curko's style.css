@@ -413,7 +413,7 @@ nav .icon-burger .line{
     border-radius: 50%;
     left: -12%;
     top: 75%;
-    background: linear-gradient(45deg, rgb(226, 154, 165), white);
+    background: linear-gradient(45deg, rgb(116, 183, 206), white);
     animation: object1 6s linear infinite;
    }
    .wrapper::after{
@@ -424,7 +424,7 @@ nav .icon-burger .line{
     border-radius: 50%;
     left: 35%;
     top: 42%;
-    background: linear-gradient(45deg, rgb(226, 154, 165), white);
+    background: linear-gradient(45deg, rgb(116, 183, 206), white);
     animation: object1 6s linear infinite;
 }
  nav .logo{
@@ -495,14 +495,14 @@ nav :checked ~ .icon-burger .line:nth-child(2){
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: rgb(103, 176, 201);
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 35px;
 	margin-bottom: 45px;
 }
 button{
-	background-color:rgb(228, 123, 139);
+	background-color:rgb(103, 176, 201);
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -513,7 +513,7 @@ button{
 }
 button:hover{
 	background-color: transparent;
-	border: 2px solid rgb(228, 123, 139);
+	border: 2px solid rgb(103, 176, 201);
 	cursor: pointer;
 }
 .logo{
@@ -523,7 +523,7 @@ button:hover{
 	cursor: pointer;
 }
 span{
-	color: rgb(228, 123, 139);
+	color: rgb(103, 176, 201);
 }
 h4{
 	font-size: 45px;
@@ -566,7 +566,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  rgb(228, 123, 139);
+	background:  rgb(103, 176, 201);
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -579,7 +579,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:rgb(228, 123, 139);
+	color:rgb(103, 176, 201);
 	bottom: 35px;
 	font-size: 20px; 
 }
@@ -621,7 +621,7 @@ footer p:nth-child(2){
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: rgb(228, 123, 139);
+	color: rgb(103, 176, 201);
 
 }
 h5{
@@ -630,7 +630,7 @@ h5{
 	margin-bottom: 15px;
 }
 .pra p{
-	color: #fcfc;
+	color: rgb(103, 176, 201);
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
