@@ -689,7 +689,7 @@ input#mail{
 footer{
 	position: relative;
 	width: 110%;
-	height: 400px;
+	height: 700px;
 	background: #191919;
 	display: flex;
 	flex-direction: column;
@@ -710,7 +710,8 @@ footer p:nth-child(2){
 	line-height: 26px;
 }
 .social{
-	display: flex;
+	display: block;
+	
 }
 .social a{
 	width: 85px;
@@ -822,6 +823,7 @@ nav ul li a{
 .service{
 	width: 90%;
 }
+
 }
 
 
