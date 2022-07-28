@@ -1,3 +1,4 @@
+
 var typingEffect = new Typed(".multiText", {
     strings: ["Tsvetoslav Nikolov", "Web Developer"],
     loop: true,
