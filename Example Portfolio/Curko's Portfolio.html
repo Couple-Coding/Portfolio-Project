@@ -20,9 +20,9 @@
 <body>
     <!----hero Section start---->
 
-    <div class="wrapper"></div>
+    <div class="wrapper" id="blur6"></div>
 
-    <div class="hero">
+    <div class="hero" id="blur5">
         <nav>
             <h2 class="logo">Port<span>folio</span></h2>
             <ul>
@@ -34,7 +34,7 @@
 
         </nav>
 
-        <div class="content">
+        <div class="content" id="blur4">
             <h4>Hello, I am</h4>
             <h1><span class="multiText"></span></h1>
             <div class="newslatter">
@@ -52,18 +52,42 @@
 
     <!----About section start---->
     <section class="about" id="aboutMe">
-        <div class="main">
+        <div class="main" id="blur">
             <img src="/images/Tsvetoslav.jpg">
             <div class="about-text">
                 <h2>About <span>Me</span> </h2>
                 <h5>Developer</h5>
                 <p class="pText"></p>
-                <a href="#footer"><button type="button">Contact me</button></a>
+                <button id="contacts" type="button" onclick="toggle()">Contact me</button>
             </div>
         </div>
     </section>
 
+    <div class="form" id="popup">
+        <h2>Contact <span>me</span> </h2>
+        <form id="orderForm" onSubmit="return checkfor()"
+        action="https://getform.io/f/186a1d95-7bb4-4f8a-87bd-60dfc7d32d22" method="POST">
+            <div class="input_field">
+              <label>First Name:</label>
+              <input type="text" class="input" placeholder="First Name" name="firstName" required>
+            </div>
+            <div class="input_field">
+              <label>Last Name:</label>
+              <input type="text" class="input" placeholder="Last Name" name="lastName" required>
+            </div>
+            <div class="input_field">
+              <label>Еmail:</label>
+              <input type="email" class="input"  placeholder="Пример: htmlanketi@gmail.com" name="email" required />
+            </div>
+            <div class="input_field">
+                <input type="submit" value="Submit" class="btn"  onclick="toggle()" required/>
+                <input  type = "button" value="Close" class="btn"  onclick="toggle()" required/>
+            </div>
+            </form>
+        </div>
+
     <!-----service section start----------->
+    <div class="more" id="blur3"> 
     <div class="service" id="ourService">
         <div class="title">
         </div>
@@ -109,10 +133,11 @@
             </div>
         </div>
     </div>
+    </div>
 
 
     <!------footer start--------->
-    <footer>
+    <footer class="footer2" id="blur2">
         <p>Tsvetoslav <span>Nikolov</span> </p>
         <p class="fText" id="footer"></p>
         <div class="social">

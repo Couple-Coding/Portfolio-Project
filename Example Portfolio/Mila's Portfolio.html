@@ -21,9 +21,9 @@
 <body>
     <!----hero Section start---->
 
-    <div class="wrapper"></div>
+    <div class="wrapper"  id="blur6"></div>
 
-    <div class="hero">
+    <div class="hero"  id="blur5">
         <nav>
             <input id="nav-toggle" type="checkbox">
             <div class="logo">Port<span>folio</span></div>
@@ -41,11 +41,12 @@
         </nav>
 
 
-        <div class="content">
+        <div class="content"  id="blur4">
             <h4>Hello, I am</h4>
             <h1> <span class="multiText"></span></h1>
             <div class="newslatter">
-                <form  id="orderForm" onSubmit="return checkform()" action="https://getform.io/f/186a1d95-7bb4-4f8a-87bd-60dfc7d32d22" method="POST">
+                <form id="orderForm" onSubmit="return checkform()"
+                    action="https://getform.io/f/186a1d95-7bb4-4f8a-87bd-60dfc7d32d22" method="POST">
                     <input type="email" name="email" id="mail" placeholder="Enter Your Email">
                     <input class="button" type="submit" name="submit" value="Lets Start">
                 </form>
@@ -58,22 +59,44 @@
 
     <!----About section start---->
     <section class="about" id="aboutMe">
-        <div class="main">
+        <div class="main" id="blur">
             <img src="/images/mila.jpg">
             <div class="about-text">
                 <h2>About <span>Me</span> </h2>
                 <h5>Developer and QA</h5>
                 <p class="pText"></p>
-                <a href="#footer"><button type="button">Contact me</button></a> 
+                <button id="contacts" type="button" onclick="toggle()">Contact me</button>
             </div>
         </div>
     </section>
 
-    <!-----service section start----------->
-    <div class="service" id="ourService">
-        <div class="title">
+    <div class="form" id="popup">
+    <h2>Contact <span>me</span> </h2>
+    <form id="orderForm" onSubmit="return checkfor()"
+    action="https://getform.io/f/186a1d95-7bb4-4f8a-87bd-60dfc7d32d22" method="POST">
+        <div class="input_field">
+          <label>First Name:</label>
+          <input type="text" class="input" placeholder="First Name" name="firstName" required>
         </div>
+        <div class="input_field">
+          <label>Last Name:</label>
+          <input type="text" class="input" placeholder="Last Name" name="lastName" required>
+        </div>
+        <div class="input_field">
+          <label>Еmail:</label>
+          <input type="email" class="input"  placeholder="Пример: htmlanketi@gmail.com" name="email" required />
+        </div>
+        <div class="input_field">
+            <input type="submit" value="Submit" class="btn"  onclick="toggle()" required/>
+            <input  type = "button" value="Close" class="btn1"  onclick="toggle()" required/>
+        </div>
+        </form>
+    </div>
 
+
+    <!-----service section start----------->
+    <div class="more" id="blur3"> 
+    <div class="service" id="ourService">
         <div class="box">
             <div class="card">
                 <i class="fas fa-laptop-code"></i>
@@ -86,7 +109,7 @@
                         <li>Linux</li>
                         <li>QA</li>
                     </ul>
-            
+
                 </div>
             </div>
 
@@ -96,7 +119,8 @@
                 <div class="pra">
                     <p>
                         I am motivated, ambitious and I love working in a team because I get along very well with
-                        people. I'm a quick learner and get into a rhythm quickly. I worked for 5 months as a Web developer and QA.
+                        people. I'm a quick learner and get into a rhythm quickly. I worked for 5 months as a Web
+                        developer and QA.
                     </p>
                 </div>
             </div>
@@ -111,16 +135,19 @@
             </div>
         </div>
     </div>
+</div>
+
 
 
     <!------footer start--------->
-    <footer>
+    <footer class="footer2" id="blur2">
         <p>Mila <span>Yonkova</span> </p>
         <p class="fText" id="footer"></p>
         <div class="social">
             <a href="https://www.facebook.com/miladimitrovaa14/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/milinkaa_/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/MilaDimitrova" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://github.com/MilaDimitrova" target="_blank"><i class="fab fa-github"
+                    aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/mila-yonkova-70015220a/" target="_blank"><i
                     class="fab fa-linkedin"></i></a>
         </div>
@@ -130,6 +157,8 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/Example Portfolio/mila's_Portfolio.js"></script>
 
+
+   
 
 
 </body>
